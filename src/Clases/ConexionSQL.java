@@ -21,7 +21,7 @@ public class ConexionSQL {
     private Connection conexion;
     String url = "jdbc:mysql://localhost:3306/moneda";
     String usuario = "root";
-    String contrasenia = "goldmountain";
+    String contrasenia = "123456";
     
     // Constructor de la clase para establecer la conexión a la base de datos
     public ConexionSQL(String url, String usuario, String contrasenia) {

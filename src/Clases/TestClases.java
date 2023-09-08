@@ -220,7 +220,7 @@ public class TestClases {
 	public static int ultimo_id() {
 		String url = "jdbc:mysql://localhost:3306/moneda";
 	    String usuario = "root";
-	    String contrasenia = "goldmountain";
+	    String contrasenia = "123456";
 		ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
 		String consultaUltimoId = "Select MAX(id) from evolucion_moneda";
 	    ResultSet porcentaje_evolucion = (database.ejecutarConsulta(consultaUltimoId));
@@ -251,7 +251,7 @@ public class TestClases {
 	public static BigDecimal valorAnterior(String monedaQuery) {
 		String url = "jdbc:mysql://localhost:3306/moneda";
 	    String usuario = "root";
-	    String contrasenia = "goldmountain";
+	    String contrasenia = "123456";
 		ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
 		String lastId = String.valueOf(ultimo_id());
 	    String StrValorAnterior = "Select " + monedaQuery + " from evolucion_moneda where id=" + lastId + ";";

@@ -121,7 +121,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
     //private static JProgressBar progressBar = new JProgressBar();
     String url = "jdbc:mysql://localhost:3306/moneda";
     String usuario = "root";
-    String contrasenia = "goldmountain";
+    String contrasenia = "123456";
 	ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
     Graficos graficos= new Graficos();
     TestClases funciones = new TestClases();
@@ -1120,7 +1120,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
     	
     	String url = "jdbc:mysql://localhost:3306/moneda";
 	    String usuario = "root";
-	    String contrasenia = "goldmountain";
+	    String contrasenia = "123456";
 		ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
 		
 		if (divisa.equals("Dólar")) {
@@ -1325,7 +1325,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 				
 		        String url = "jdbc:mysql://localhost:3306/moneda";
 			    String usuario = "root";
-			    String contrasenia = "goldmountain";
+			    String contrasenia = "123456";
 				ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
 				
 				database.eliminarRegistrosTabla("evolucion_moneda");

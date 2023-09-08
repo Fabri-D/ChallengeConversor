@@ -65,7 +65,7 @@ public class Graficos {
 	public ChartPanel generarGraficolineas(String monedaQuery, String horaInicio, String horaFin) throws SQLException {
 		String url = "jdbc:mysql://localhost:3306/moneda";
 	    String usuario = "root";
-	    String contrasenia = "goldmountain";
+	    String contrasenia = "123456";
 		ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
 		
 		ArrayList<Object> parametros = new ArrayList<>();
@@ -242,7 +242,7 @@ public class Graficos {
 		// Establecer la conexión a la base de datos
 		String url = "jdbc:mysql://localhost:3306/moneda";
 	    String usuario = "root";
-	    String contrasenia = "goldmountain";
+	    String contrasenia = "123456";
 		ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
 		
 		// Preparar los parámetros para la consulta SQL
@@ -359,7 +359,7 @@ public class Graficos {
 		
 		String url = "jdbc:mysql://localhost:3306/moneda";
 	    String usuario = "root";
-	    String contrasenia = "goldmountain";
+	    String contrasenia = "123456";
 		ConexionSQL database = new ConexionSQL(url, usuario, contrasenia);
 		
 		ArrayList<Object> parametros = new ArrayList<>();
