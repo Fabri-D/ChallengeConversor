@@ -9,8 +9,7 @@ El repositorio contiene un video explicativo donde se explayan las funcionalidad
 
 ## Origen
 
-Este proyecto se inició a partir de una consigna educativa basada en requisitos funcionales predefinidos.
+Este proyecto se originó a partir de un ejercicio de programación con fines educativos y evolucionó hacia una implementación independiente extendida más allá de los requisitos iniciales.
 
-La implementación final fue desarrollada de manera independiente y extendida más allá del alcance original.  
-Posteriormente sirvió como base técnica para los experimentos del modelo nulo de tendencia–volatilidad.
+Posteriormente se convirtió en el punto de partida técnico para la investigación del modelo nulo de tendencia–volatilidad.
 
